@@ -6,9 +6,9 @@ def my_each(array) # put argument(s) here
   yield(array[i]) #yield each one of the array
    i += 1 #add one to counter each loop
 end
-  array
+  array #gives original array
 else
-   "No block was given!"
+   "No block was given!" #can't call on puts, use implicit return
 end
   
 end
